@@ -7,8 +7,8 @@ export class UsersService {
   async getByEmail(email: string) {
     return {
       _id: '1234',
-      name: 'Deco',
-      email: 'deco@mail.com',
+      name: 'Deco Oliveira',
+      email: 'deco.oliveira@mail.com',
       password: 'pass123',
     };
   }
