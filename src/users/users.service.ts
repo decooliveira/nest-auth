@@ -5,6 +5,7 @@ export class UsersService {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
   async getByEmail(email: string) {
+    // FOR IMPLEMENTATION WITH A REAL DATABASE
     return {
       _id: '1234',
       name: 'Deco Oliveira',
